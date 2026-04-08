@@ -8,3 +8,10 @@ yourName = input("What's your name? ")
 
 # Outputs a greeting to the user using their name.
 print ("Hello, " + yourName + "!")
+
+#Edit of a cloned repository in my GitHub account, originally pulled via visual studio
+#through the Powershell terminal.
+
+#Opened file in powershell via devenv.exe and made edits to the code, then committed 
+#and pushed the changes back to GitHub.
+print ("V.2")
