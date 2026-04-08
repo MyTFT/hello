@@ -4,10 +4,10 @@
 #This program will ask the user for their name and then greet them.
 
 # Ask the user for their name and store in a variable called yourName.
-yourName = input("What's your name? ")
+#yourName = input("What's your name? ")
 
 # Outputs a greeting to the user using their name.
-print ("Hello, " + yourName + "!")
+#print ("Hello, " + yourName + "!")
 
 #Edit of a cloned repository in my GitHub account, originally pulled via visual studio
 #through the Powershell terminal.
@@ -17,3 +17,9 @@ print ("Hello, " + yourName + "!")
 #print ("V.2")
 
 #Test to see add to branch off main to merge later.
+
+#Can chain multiple functions together.
+yourName = input("What's your name? ").strip().title()
+print("Hello, ", yourName)
+
+
