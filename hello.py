@@ -18,8 +18,27 @@
 
 #Test to see add to branch off main to merge later.
 
+#Create new function called hello()
+
+
+
+def main():
+    yourName = input("What's your name? ")
+    #when hello is called, it will take the value of yourName and pass it to the parameter to in the hello function.
+    hello(yourName)
+    
+
+def hello(to):
+    #to is a local variable that is only used within the hello function. 
+    #It is a parameter that takes in the value of yourName when the function is called in main.
+    print("hello,", to)
+main()
+
+
 #Can chain multiple functions together.
-yourName = input("What's your name? ").strip().title()
-print("Hello, ", yourName)
+#yourName = input("What's your name? ").strip().title()
+
+
+
 
 
